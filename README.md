@@ -9,13 +9,13 @@ This repository contains the demonstration of Web Push via Firebase Cloud Messag
 **Set up FCM server key**
 
 ```setup shell
-(fcm-webpush-test) $ sh ./setup.sh <FCM_SENDER_ID> <FCM_SERVER_KEY>
+(fcm-webpush-sdk-test) $ sh ./setup.sh <FCM_SENDER_ID> <FCM_SERVER_KEY>
 ```
 
 **Run containerss**
 
 ```docker-compose shell
-(fcm-webpush-test) $ docker-compose up -d
+(fcm-webpush-sdk-test) $ docker-compose up -d
 ```
 
 **Confirm web server**
